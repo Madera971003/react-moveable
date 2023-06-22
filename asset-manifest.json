@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-moveable/static/css/main.4df38e5e.css",
+    "main.js": "/react-moveable/static/js/main.d46ddb54.js",
+    "index.html": "/react-moveable/index.html",
+    "main.4df38e5e.css.map": "/react-moveable/static/css/main.4df38e5e.css.map",
+    "main.d46ddb54.js.map": "/react-moveable/static/js/main.d46ddb54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df38e5e.css",
+    "static/js/main.d46ddb54.js"
+  ]
+}
