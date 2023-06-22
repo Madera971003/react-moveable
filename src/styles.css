@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 233, 250);
+}
+
+#parent {
+  position: relative;
+  background: #b7a6a6;
+  overflow: hidden;
+  height: 80vh;
+  width: 80vw;
+  left: 10%;
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+}
+
+.buttonsContainer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.buttonAdd, .buttonRemove, .buttonDeleteAll {
+  width: 150px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.buttonAdd {
+  border: 2px solid #a6eda6;
+  background-color: #a6eda6;
+}
+
+.buttonRemove {
+  border: 2px solid #eca6a6;
+  background-color: #eca6a6;
+}
+
+.buttonDeleteAll {
+  border: 2px solid #c2bfbf;
+  background-color: #c2bfbf;
+}
+
+.buttonAdd:hover {
+  cursor: pointer;
+  background-color: rgb(13, 199, 13);
+  color: white;
+}
+
+.buttonRemove:hover {
+  cursor: pointer;
+  background-color: rgb(199, 13, 13);
+  color: white;
+}
+
+.buttonDeleteAll:hover {
+  cursor: pointer;
+  background-color: rgb(61, 13, 13);
+  color: white;
+}
